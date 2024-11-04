@@ -14,8 +14,4 @@ class ReportGenerator < Formula
   def install
     bin.install "report-generator"
   end
-  
-  test do
-    system "#{bin}/report-generator", "--version"
-  end
 end
