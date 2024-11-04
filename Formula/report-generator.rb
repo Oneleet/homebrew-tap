@@ -7,7 +7,7 @@ class ReportGenerator < Formula
   version "v1.1.0"
   
   if OS.mac?
-    url "https://github.com/oneleet/report-generator/releases/download/refs/tags/v1.1.0/report-generator", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
+    url "https://github.com/Oneleet/report-generator/releases/download/v1.1.0/report-generator", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
     sha256 "${BINARY_SHA256}"
   end
   
