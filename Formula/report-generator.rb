@@ -1,3 +1,6 @@
+require "formula"
+require_relative "lib/private_strategy"
+
 class ReportGenerator < Formula
   desc "Oneleet Report Generator"
   homepage "https://github.com/oneleet/report-generator"
