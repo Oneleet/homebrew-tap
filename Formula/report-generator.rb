@@ -8,7 +8,7 @@ class ReportGenerator < Formula
   
   if OS.mac?
     url "https://github.com/Oneleet/report-generator/releases/download/v1.1.0/report-generator", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-    sha256 "${BINARY_SHA256}"
+    sha256 "766dd39bc0af627838ed68d5bd783c7cf7b20ef2747d4abf849b004fabea178f"
   end
   
   def install
